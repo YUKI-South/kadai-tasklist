@@ -2,15 +2,15 @@
 
 @section('content')
     @if(Auth::check())
-         <h1>タスク一覧</h1>
+         <h1>Task List</h1>
         
         @if (count($tasks) > 0 )
             <table class='table table-striped'>
                 <thead>
                     <tr>
                         <th>id</th>
-                        <th>ステータス</th>
-                        <th>タスク</th>
+                        <th>Status</th>
+                        <th>Task</th>
                     </tr>
                 </thead>
                 <tbody>
