@@ -25,7 +25,7 @@
             </table>
         @endif
         
-        {!! link_to_route('tasks.create', 'タスクを追加', [], ['class' => 'btn btn-primary']) !!}
+        {!! link_to_route('tasks.create', 'Add new task', [], ['class' => 'btn btn-primary']) !!}
     @else
         <div class='center jumbotron'>
             <div class='text-center'>
